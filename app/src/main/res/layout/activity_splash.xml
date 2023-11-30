@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+
+    <!-- <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="429dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/my" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22sp"
+        android:layout_marginLeft="22sp"
+        android:layout_marginTop="15sp"
+        android:fontFamily="cursive"
+        android:text="Welcome to Susheel's World"
+        android:textColor="@color/black"
+        android:textSize="37sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textSize="37sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="635sp"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="22sp"
+        android:text="From ~ Susheel tiwari" />
+    <!-- android:src="@drawable/my"-->
+
+
+</RelativeLayout>
